@@ -1,7 +1,7 @@
 import Styled from '@emotion/styled';
 
 export const ResumeWrapper = Styled.div`
-    background-color: darkGreen;
+    background-color: skyBlue;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -32,7 +32,7 @@ export const Dates = Styled.div`
 `
 
 export const Header = Styled.div`
-    font-size: 2.20em;
+    font-size: 1.50em;
     font-weight: 720;    
 `;
 
