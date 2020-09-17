@@ -8,9 +8,18 @@ import { Resume } from './components/Resume';
 import { Home } from './components/Home';
 
 const App = () => (
-  <div style={{ color: 'black', padding: '10px', fontSize: '48px' }}>
-    APP
-  </div>
+  <Router>
+      <React.Fragment>
+      <Switch>
+        <Route path="/resume"> 
+          <Resume/>
+        </Route>
+        <Route path="/"> 
+          <Home />
+        </Route>
+      </Switch>
+    </React.Fragment>
+  </Router>
 );
 
 
